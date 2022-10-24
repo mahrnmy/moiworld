@@ -1,0 +1,13 @@
+body {background-image: url(picture.jpg);
+	background-size: cover;
+	background-position: center;
+    background-position: center
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif; background: #2c350;
+    }
+
+h1 {text-align: center}
+.classdiv {
+    display: flex;
+	align-items: center;
+    justify-content: center;}

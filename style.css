@@ -1,0 +1,64 @@
+
+body {background-image: url(picture.jpg);
+	background-size: cover;
+	background-position: center;
+	font-size: 15px;
+	font-family: Georgia, 'Times New Roman', Times, serif; background: #2c350;
+	text-align:center}
+	h1 {font-family: Georgia, 'Times New Roman', Times, serif}
+nav {
+	margin: 27px auto 0
+	position: relative
+	width: 590px
+	height: 50px
+	background-color: white;
+	border-radius: 8px
+	font-size:0}	
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: darkblue;
+	cursor: pointer;
+}
+	nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0; z-index: 0;
+	transition: all .5s ease Os; 
+	border-radius: 8px;
+}		
+
+a:nth-child(1) {
+	width: 100px;
+}
+	a:nth-child(2) {
+	width: 110px;
+}
+	a:nth-child(3) {
+	width: 100px;
+}
+	nav .start-home, a:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 0;
+	background-color: #labc9c;
+}
+	nav .start-about, a:nth-child(2):hover~.animation {
+	width: 110px;
+	left: 100px;
+	background-color: #74C3c;
+}
+	nav .start-future, a:nth-child(3):hover~.animation {
+	width: 100px;
+	left: 210px;
+	background-color: #3498db;
+}
+	span {
+	color: #2BD6B4;
+	}
